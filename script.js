@@ -361,3 +361,48 @@
 
 // ----------------------------------------------------------------------//
 // ------------------- String Properties and Methods -------------------//
+
+// let text = ' Fer Gonzalez';
+// let result = text.length;
+// console.log(result);
+// console.log(text.length);
+// console.log(text.toLowerCase());
+// console.log(text.toUpperCase());
+// console.log(text.charAt(2));
+// console.log(text.charAt(text.length-1));
+// console.log(text.indexOf('r'));
+// console.log(text);
+// console.log(text.trim());
+// console.log(text.startsWith(' Fer'));
+// console.log(text.trim().toLowerCase().startsWith('fer'));
+// console.log(text.includes('er'));
+// console.log(text.slice(2,4));
+// console.log(text.slice(-2));
+
+
+// const person = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     id: 5566,
+//     fullName() {
+//         console.log('Im fer');
+//     },
+// };
+
+// console.log(person);
+// console.log(person.firstName);
+// person.fullName()
+
+
+
+// ----------------------------------------------------------------------//
+// ------------------- ES6 -------------------//
+
+const name = 'jhon';
+const age = 89;
+const sentense = "Hey its " + name + "and i have " + age;
+console.log(sentense);
+
+// template literals
+const value = `hey im ${name} and i have ${age}.`
+console.log(value);
