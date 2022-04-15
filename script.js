@@ -398,11 +398,122 @@
 // ----------------------------------------------------------------------//
 // ------------------- ES6 -------------------//
 
-const name = 'jhon';
-const age = 89;
-const sentense = "Hey its " + name + "and i have " + age;
-console.log(sentense);
+// const name = 'jhon';
+// const age = 89;
+// const sentense = "Hey its " + name + "and i have " + age;
+// console.log(sentense);
 
-// template literals
-const value = `hey im ${name} and i have ${age}.`
-console.log(value);
+// // template literals with backticks
+// const value = `hey im ${name} and i have ${age}.`
+// console.log(value);
+
+
+// // arrays
+// let names = ['jhon', 'bobo', 'barry']
+// // property
+// console.log(names.length);
+// console.log(names.length-1);
+// console.log(names[names.length-1]);
+
+// const lastName = ['peper', 'apple'];
+// const allNames = names.concat(lastName);
+// console.log(allNames);
+// // console.log(allNames.reverse());
+
+// // // unshift : add beggining
+// // allNames.unshift('sushi');
+// // // allNames.unshift('tom');
+// // console.log(allNames);
+
+// // // shift : remove beggining
+// // allNames.shift();
+// // allNames.shift();
+// // console.log(allNames);
+
+// // // push : add end
+// // allNames.push('sushi');
+// // allNames.push('tom');
+// // console.log(allNames);
+
+// // // pop : remove end
+// // allNames.pop();
+// // allNames.pop();
+// // console.log(allNames);
+
+// // splicing mutates the original array
+// const specificNames = allNames.splice(0,1)
+// console.log(specificNames);
+
+
+
+// Arrays and for loop
+// array
+// const names = ['alex', 'sussy', 'bob', 'tom'];
+// const lastName = ['gon'];
+// let newArray = [];
+// // forloop
+// for(let i=0; i < names.length; i++){
+//     console.log(i);
+//     console.log(names[i]);
+//     const fullName = `${names[i]} ${lastName}`
+//     newArray.push(fullName);
+//     console.log(newArray);
+// }
+
+
+
+// Functions and rturn
+
+// const gas = [20, 40, 100, 30];
+// const food = [10, 40, 50];
+
+// function calc(arr){
+//     let total = 0;
+//     for(let i =0; i < arr.length; i ++){
+//         total += arr[i]
+//         // console.log(total);
+//     }
+//     if(total > 100){
+//         console.log(`wow you are spendin to much`);
+//         return total;
+//     }
+//     console.log(`less than 100`);
+//     return total;
+// }
+
+// const gasTotal = calc(gas);
+// const foodTotal = calc(food);
+
+// const randomTotal = calc([200, 500, 34]);
+
+// // log as an object
+// console.log({
+//     gas: gasTotal,
+//     food: foodTotal,
+//     random: randomTotal,
+// });
+
+
+// // if its primitive we are passing it by value
+// // if is not primitive we are passing by reference
+// const number = 1;
+// let number2 = number;
+// number2 = 7
+// console.log(`the first number is ${number}`);
+// console.log(`the second number is ${number2}`); 
+
+
+// let person = {name:'boo'};
+// let person2 = {...person};
+// person.name = 'susy';
+
+// console.log(`First Person: ${person.name}`);
+// console.log(`Second Person: ${person2.name}`);
+
+
+
+// // null vs underfine
+// let n = 9 + null;
+// console.log(n);
+// let n1 = 9 + underfined;
+// console.log(n1);
