@@ -185,16 +185,179 @@
 // greeting();
 // greeting();
 
-function greeting(a, b){
-    // logic
-    console.log('He there ' + a );
-    console.log('He there ' + b);
-}
+// varibles
+// const name = 'bob';
+// const lastName = 'Gon';
+// const age = 56;
 
-greeting('tom', 'arron');
+// function greeting(a, b, c){
+//     // logic
+//     console.log('My name is ' + a );
+//     console.log('My last Name is ' + b);
+//     console.log('And age is ' + c);
+// }
+
+// greeting(name, lastName, age);
+// // greeting(name);
+// // greeting(lastName);
+// // greeting(age);
+
+
+
+// variables
+
+// //Example 1
+// const wallHeight = 80;
+
+// function calc(a){
+//     // const newValue = a*2.54;
+//     // console.log('The value in cm is : ' + a*2.56);
+//     return a*2.54
+// }
+// const width = calc(100);
+// const height = calc(wallHeight);
+
+// const dimentions = [width, height];
+// console.log(dimentions);
+
+
+// // Example 2
+
+// const n1 = calc(1,2);
+// const n2 = calc(3,4);
+
+
+// const values = [n1, n2, n3];
+// console.log("Values in an array: " + values);
+
+// function calc(num1, num2) {
+//     result = num1 + num2;
+//     console.log("single values: " + result);
+//     return result;
+// }
+
+// // Function exprecsion
+// const add = function(num1, num2) {
+//     return num1 + num2;
+// }
+
+// const n3 = add(1,1);
 
 
 
 
 
+// ----------------- Methods and objects
+// // creating a person object
+// const person = {
+//     name : 'Fernando',
+//     lastName: 'Gonzalez',
+//     age: 27,
+//     education: false,
+//     status: true,
+//     siblings: ['anna', 'sussan', 'peter'],
+//     // once you invoke this function it becomes a method
+//     // es6 function in a method
+//     greet(){
+//         console.log('This is a method');
+//     }
+// }
 
+// console.log(person.age);
+// console.log(person.siblings[2]);
+// person.greet()
+
+
+// ----------------- Conditional Statements
+
+// const value = true;
+// const value = 5;
+// const value2 = false;
+
+// if(value > 4){
+//     console.log('Hi');
+// }
+// if(value2){
+//     console.log('Hi..');
+// }
+// else{
+//     console.log('value2 is false');
+// }
+
+
+
+// ----------------- Switch
+// const dice = 1;
+
+
+// switch(dice){
+//     case 1:
+//         console.log('You got one');
+//         break;
+//     case 2:
+//         console.log('You got two');
+//         break;
+//     case 3:
+//         console.log('You got three');
+//         break;
+//     default:
+//         console.log('You didnt roll the dice');
+// }
+
+
+
+
+// ELSE IF
+// if(dice === 1){
+//     console.log('You got one');
+// }
+// else if(dice === 2) {
+//     console.log('You got 2');
+// }
+// else{
+//     console.log('You did not roll the dice');
+// }
+
+
+// ALL IF
+// if(dice === 1){
+//     console.log('You got one');
+// }
+// if(dice === 2) {
+//     console.log('You got 2');
+// }
+// if(dice < 1 || dice > 6) {
+//     console.log('You did not roll the dice');
+// }
+
+
+// ----------------------------------------------------------------------//
+// -------------------While Loops -------------------//
+
+// let amount = 10;
+
+// while(amount > 0) {
+//     console.log('I have ' + amount + ' dollars');
+//     amount--
+// }
+
+// let amount = 12;
+
+// do{
+//     console.log('I have ' + amount + ' dollars.');
+//     amount++
+// } while(amount < 10);
+
+
+// let i;
+
+// for(i = 0; i < 5 ; i++){
+//     console.log(i);
+// }
+
+
+
+
+
+// ----------------------------------------------------------------------//
+// ------------------- String Properties and Methods -------------------//
